@@ -1,5 +1,11 @@
 //Import components
-export const comoponents: any[] = [
+import { CardUserComponent } from './cards/card-user/card-user.component';
+import { TitleH1Component } from './titles/title-h1/title-h1.component';
 
+export const comoponents: any[] = [
+  CardUserComponent,
+  TitleH1Component
 ];
 //export all components
+export * from './cards/card-user/card-user.component';
+export * from './titles/title-h1/title-h1.component';

@@ -5,6 +5,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
 import * as fromComponents from './components';
+import { CardUserComponent } from './components/cards/card-user/card-user.component';
+
 
 @NgModule({
   imports: [
@@ -15,7 +17,7 @@ import * as fromComponents from './components';
     RouterModule
   ],
 
-  declarations: [...fromComponents.comoponents],
+  declarations: [...fromComponents.comoponents, CardUserComponent],
   exports: [
     FormsModule,
     ReactiveFormsModule,
